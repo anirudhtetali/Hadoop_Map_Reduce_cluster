@@ -1,4 +1,13 @@
 ### Hadoop_Map_Reduce     
+
+Using the Hadoop streaming API built mapper and reducer scripts that analyze the data and yield summary counts for each vehicle that
+describe the total count, per vehicle type, that the vehicle type was involved in an incident. If the same
+type of vehicle was involved more than once in an incident, the vehicle is counted twice for the purpose of the
+summary statistic. 
+
+Please refer to * https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-VehicleCollisions/h9gi-nx95 *
+for more information about the dataset.
+
 Hadoop Map-Reduce program in python to find count of different types of vehicles in given dataset.      
 1. Use mapper.py and reducer.py to run mapreduce on hadoop cluster.     
 2. Use the below commands:     
